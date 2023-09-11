@@ -1,0 +1,13 @@
+.mytag{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}
