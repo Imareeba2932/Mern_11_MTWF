@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* margin: 0; */
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+           
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Image Gallery</h1>
+    </header>
+    <div class="image-gallery">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 1">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 2">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 3">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 4">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 5">
+        <img class="image" src="http://cdn.collider.com/wp-content/uploads/guardians-of-the-galaxy-poster-rocket.jpg" alt="Image 6">
+        
+    </div>
+</body>
+</html>
