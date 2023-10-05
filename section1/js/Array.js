@@ -115,3 +115,12 @@ console.log(newColors);
 
 f = ['Apple','Banana','Grapes','Orange','Banana']
 console.log(f.slice(1,4))
+
+let n = [1,2,3,4,5]
+let en = [];
+for (let x of n){
+    if (x%2 == 0){
+        en.push(x);
+    }
+}
+console.log(en);
