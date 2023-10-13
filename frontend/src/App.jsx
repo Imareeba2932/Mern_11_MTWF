@@ -8,6 +8,7 @@ import PageNotFound from './components/PageNotFound'
 import EventHandling from './components/EventHandling'
 import Count from './components/count'
 import About from './components/about'
+import Todo from './components/todo'
 
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
           <Route path='*' element={<PageNotFound />} />
           <Route path='/EventHandling' element={<EventHandling />} />
           <Route path='/count' element={<Count />} />
+          <Route path='/todo' element={<Todo />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
       
     </div>
   )
