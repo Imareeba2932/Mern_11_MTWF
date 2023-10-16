@@ -29,7 +29,7 @@ const Todo = () => {
                 onKeyDown = {addNewTodo} />
             </div>
             <div className ="card-body ">
-                {todoList.map((todo,index) => {
+                {todoList.map((todo, index) => {
                     return(
                         <div className="d-flex justify-content-between mt-3">
                             <h5>{todo}</h5>
