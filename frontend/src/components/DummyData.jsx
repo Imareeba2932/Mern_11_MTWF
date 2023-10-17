@@ -9,13 +9,33 @@ const Data = [
         brand: "dell",
         model: "inspiron",
         price: 60000,
-        image: "https://images-na.ssl-images-amazon.com/images/I/71U2SiHgbiL._SL1500_.jpg"
+        image: "https://tse4.mm.bing.net/th?id=OIP.wmjT1nkEnJ0qyHpdpyhJ-AHaFr&pid=Api&P=0&h=180"
     },
     {
         brand: "lenovo",
         model: "ideapad",
         price: 40000,
-        image: "https://images-na.ssl-images-amazon.com/images/I/81rJFyX4%2B1L._SL1500_.jpg"
+        image: "https://i5.walmartimages.com/asr/11caeb8d-a283-48f3-b170-a6a32f5e6958.f8e26ac8795f62a8d98e984298e181c2.jpeg"
+    },
+    {
+        brand: "Asus",
+        model: "pavilion",
+        price: 50000,
+        image: "https://images-na.ssl-images-amazon.com/images/I/81pezrPSgOL._SL1500_.jpg"
+    },
+    
+    {
+        brand: "Apple",
+        model: "ideapad",
+        price: 40000,
+        image: "https://i5.walmartimages.com/asr/11caeb8d-a283-48f3-b170-a6a32f5e6958.f8e26ac8795f62a8d98e984298e181c2.jpeg"
+    },
+    
+    {
+        brand: "Desktop",
+        model: "ideapad",
+        price: 40000,
+        image: "https://i5.walmartimages.com/asr/11caeb8d-a283-48f3-b170-a6a32f5e6958.f8e26ac8795f62a8d98e984298e181c2.jpeg"
     },
 ];
 
