@@ -12,6 +12,7 @@ const ProductListing = () => {
                 <img className='card-img-top img' src={obj.image} alt='loading'/>
             </div>
             <div className='card-body mt-4'>
+                {obj.sponsored ? <h6 className='fw-bold text-muted'>Sponsored</h6> : ''}
                 <h3 className='card-tittle'>{obj.brand}</h3>
                 <h4 className='card-subtitle mb-2 text-muted'>{obj.model}</h4>
                 <h4 className='card-text'>Price: {obj.price}</h4>

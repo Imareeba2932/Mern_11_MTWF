@@ -10,6 +10,7 @@ import Count from './components/count'
 import About from './components/about'
 import Todo from './components/todo'
 import ProductListing from './components/ProductListing'
+import WeatherCard from './components/WeatherCard'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/count' element={<Count />} />
           <Route path='/todo' element={<Todo />} />
           <Route path='/ProductListing' element={<ProductListing />} />
+          <Route path='/WeatherCard' element={<WeatherCard />} />
         </Routes>
       </BrowserRouter> 
       
