@@ -39,3 +39,9 @@
 .img{
     height: 300px;
 }
+.card-bg-red{
+    background-color: #f7610b;
+}
+.card-bg-blue{
+    background-color: #5e5ef4;
+}
