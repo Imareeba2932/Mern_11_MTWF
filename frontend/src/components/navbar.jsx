@@ -36,6 +36,9 @@ const navbar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="/WeatherCard">WeatherCard</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/QuoteApp">QuoteApp</Link>
+          </li>
           
         </ul>
       </div>

@@ -26,9 +26,10 @@ const Login = () => {
             password: '',
         },
         // step5: validation schema
-        onSubmit: (values) =>
+        onSubmit: (values, {resetForm}) =>
         {
             console.log(values)
+            resetForm()
         },
         // step6: validation of LoginSchema
         validationSchema: LoginSchema
