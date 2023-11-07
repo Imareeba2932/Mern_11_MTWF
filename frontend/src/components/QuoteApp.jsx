@@ -13,7 +13,7 @@ const QuoteApp = () => {
         const data = await response.json()
         // setQuote(`${data.content}  -${data.author}`)
         setQuote(<div>
-          <blockquote className="qblock">{data.content}<br/>{data.author}</blockquote>
+          <blockquote className="">{data.content}<br/>{data.author}</blockquote>
           {/* <p className="author"></p> */}
         </div>)
     }
