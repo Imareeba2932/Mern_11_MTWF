@@ -12,6 +12,7 @@ import Todo from './components/todo'
 import ProductListing from './components/ProductListing'
 import WeatherCard from './components/WeatherCard'
 import QuoteApp from './components/QuoteApp'
+import ManageProduct from './components/ManageProduct'
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/ProductListing' element={<ProductListing />} />
           <Route path='/WeatherCard' element={<WeatherCard />} />
           <Route path='/QuoteApp' element={<QuoteApp />} />
+          <Route path='/ManageProduct' element={<ManageProduct />} />
         </Routes>
       </BrowserRouter> 
       
