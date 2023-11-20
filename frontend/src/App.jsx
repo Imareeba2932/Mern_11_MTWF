@@ -13,6 +13,7 @@ import ProductListing from './components/ProductListing'
 import WeatherCard from './components/WeatherCard'
 import QuoteApp from './components/QuoteApp'
 import ManageProduct from './components/ManageProduct'
+import Signup from './components/Signup'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/Signup' element={<Signup />} />
           <Route path='*' element={<PageNotFound />} />
           <Route path='/EventHandling' element={<EventHandling />} />
           <Route path='/count' element={<Count />} />

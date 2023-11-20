@@ -2,13 +2,18 @@
 const express = require('express');
 const app = express();
 const port = 5000;
+const cors = require('cors');
 
 const UserRouter = require('./Routers/UserRouter');
 const ProductRouter = require('./Routers/ProductRouter')
 app.use(express.json());
+app.use(cors({
+    origin: ['http://localhost:5173']
+}))
 // middleware
 app.use('/user', UserRouter);
 app.use('/product', ProductRouter);
+
 
 // app.get('/',(req, res) => {
 //     res.send('Server is successfully running')
