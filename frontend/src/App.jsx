@@ -14,6 +14,7 @@ import WeatherCard from './components/WeatherCard'
 import QuoteApp from './components/QuoteApp'
 import ManageProduct from './components/ManageProduct'
 import Signup from './components/Signup'
+import Browse from './components/Browse'
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='/WeatherCard' element={<WeatherCard />} />
           <Route path='/QuoteApp' element={<QuoteApp />} />
           <Route path='/ManageProduct' element={<ManageProduct />} />
+          <Route path='/Browse' element={<Browse />} />
         </Routes>
       </BrowserRouter> 
       
